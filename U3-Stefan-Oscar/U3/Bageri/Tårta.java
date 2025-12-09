@@ -41,6 +41,6 @@ public class Tårta extends MenuItem {
         return "Tårta: " + namn +
                 "Antal bitar: " + antalbitar +
                 "Fyllningar: " + fyllningarStr +
-                "Totalpris: " + pris + " kr";
+                "Totalpris: " + pris + " krn";
     }
 }
