@@ -1,13 +1,19 @@
 package Bageri;
 
 public class Stycksaker extends MenuItem {
-    private int antalExemplar;
 
-    public Stycksaker(String namn, int pris, int antalExemplar) {
+
+    public Stycksaker(String namn, int pris) {
         super(namn, 0);
-        this.antalExemplar = antalExemplar;
+
+        this.namn = namn;
+        this.pris = pris;
     }
-    public void beskrivning(){
-        System.out.println(namn + " | " + pris + " kr");
+    public int getPris() {
+        return this.pris;
+
+    }
+    public String toString(){
+       return (namn + " | " + pris + " kr");
     }
 }

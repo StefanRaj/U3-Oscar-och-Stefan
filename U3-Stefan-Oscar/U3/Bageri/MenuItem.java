@@ -10,7 +10,7 @@ public abstract class MenuItem {
         this.namn = namn;
         this.pris = pris;
     }
-    public abstract void beskrivning();
+    public abstract String toString();
 
     public abstract int getPris();
 
